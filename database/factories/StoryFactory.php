@@ -20,7 +20,6 @@ class StoryFactory extends Factory
         return [
             'user_id' => User::factory(),
             'title' => $this->faker->sentence,
-            'description' => '<p>' . implode('</p><p>', $this->faker->paragraphs) . '</p>',
             'description' => '<h3>' . $this->faker->sentence . '</h3>'
                 . '<p>' . implode('</p><p>', $this->faker->paragraphs) . '</p>'
                 . '<h3>' . $this->faker->sentence . '</h3>'
