@@ -89,7 +89,7 @@ php artisan migrate --seed
 
 ## Running application and services
 
-To start the server use the following command in separate terminals.
+To start the server run the following command in separate terminals.
 
 1. Start PHP development server.
     ```bash
