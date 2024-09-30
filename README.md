@@ -55,10 +55,6 @@ There are lots of possibilities to upgrade this app that were skipped to develop
     ```bash
     npm install
     ```
-1. Compile Vite.
-    ```bash
-    npm run build
-    ```
 1. Copy `.env.example` to `.env` and set values.
     - APP_KEY - Generate with `php artisan key:generate`.
     - APP_URL - Change to `http://127.0.0.1:8000` in development to get proper approval url in emails.
@@ -78,6 +74,10 @@ There are lots of possibilities to upgrade this app that were skipped to develop
         - REVERB_PORT
         - REVERB_SCHEME
         - REVERB_SERVER_PORT
+1. Compile Vite.
+    ```bash
+    npm run build
+    ```
 
 ## Database and migrations
 
