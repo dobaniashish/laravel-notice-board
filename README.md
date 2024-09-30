@@ -51,9 +51,13 @@ There are lots of possibilities to upgrade this app that were skipped to develop
     ```bash
     composer install
     ```
-1. Install Node dependencies. (Optional)
+1. Install Node dependencies.
     ```bash
     npm install
+    ```
+1. Compile Vite.
+    ```bash
+    npm run build
     ```
 1. Copy `.env.example` to `.env` and set values.
     - APP_KEY - Generate with `php artisan key:generate`.
