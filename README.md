@@ -2,7 +2,7 @@
 
 A notice board app with made Laravel.
 
-This is a simple minimal and quickly developed notice board app made with Laravel and Tailwind CSS following the project instructions. There are lots of possibilities to upgrade this app.
+This is a simple, minimal and quickly developed (in 2-3 hours) notice board app made with Laravel and Tailwind CSS following the project instructions. There are lots of possibilities to upgrade this app.
 
 ## Project instructions
 
